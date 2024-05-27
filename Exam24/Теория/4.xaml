@@ -8,7 +8,23 @@
         Title="_4" Height="720" Width="1280" WindowStartupLocation="CenterScreen">
     <Grid>
         <ListBox Name="UsersLb">
-            
+            <!-- ItemTemplate  - задает шаблон для объекта (каждой записи) -->
+            <ListBox.ItemTemplate>
+                <!-- DataTemplate - задает шаблон данных (внешний вид) -->
+                <DataTemplate>
+                    <Border>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="300"/>
+                                <ColumnDefinition Width="10"/>
+                                <ColumnDefinition Width="1*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Image Source="{Binding Photo}"/>
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
         </ListBox>
     </Grid>
 </Window>
