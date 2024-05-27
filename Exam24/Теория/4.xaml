@@ -12,7 +12,7 @@
             <ListBox.ItemTemplate>
                 <!-- DataTemplate - задает шаблон данных (внешний вид) -->
                 <DataTemplate>
-                    <Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Padding="20">
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="300"/>
