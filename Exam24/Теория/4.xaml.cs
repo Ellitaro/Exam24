@@ -22,6 +22,9 @@ namespace Exam24.Теория
         public _4()
         {
             InitializeComponent();
+
+            // Загрузка данных в listbox
+            UsersLb.ItemsSource = App.context.User.ToList();
         }
     }
 }

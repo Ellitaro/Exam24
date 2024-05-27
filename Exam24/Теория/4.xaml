@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Exam24.Теория"
         mc:Ignorable="d"
-        Title="_4" Height="450" Width="800">
+        Title="_4" Height="720" Width="1280" WindowStartupLocation="CenterScreen">
     <Grid>
-        
+        <ListBox Name="UsersLb">
+            
+        </ListBox>
     </Grid>
 </Window>

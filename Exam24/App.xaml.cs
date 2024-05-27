@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Exam24.Model;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -13,5 +14,7 @@ namespace Exam24
     /// </summary>
     public partial class App : Application
     {
+        // Создание контекста
+        public static ConferenceEntities context = new ConferenceEntities();
     }
 }
